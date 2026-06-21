@@ -17,8 +17,6 @@ The project incorporates structural clock dividers, asynchronous pushbutton sync
 ---
 
 ## 📐 System Architecture Diagram
-
-
 [ 50 MHz Clock Input ]
                        │
                        ▼
