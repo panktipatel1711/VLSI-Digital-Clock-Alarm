@@ -57,8 +57,8 @@ The project incorporates structural clock dividers, asynchronous pushbutton sync
 
 ## 🗂️ Verification & Project Folder Hierarchy
 
+```text
 VLSI-Digital-Clock-Alarm/
-│
 ├── rtl/               # Synthesizable System Verilog / Verilog Modules
 │   ├── clk_en.v         # Synchronous clock tick distribution prescaler
 │   ├── debounce_sync.v  # Double-latch input isolation architecture
@@ -68,13 +68,10 @@ VLSI-Digital-Clock-Alarm/
 │   ├── seg_mux.v        # Dynamic multiplexed character look-up map
 │   ├── ui_fsm.v         # Central user operational finite state machine
 │   └── top.v            # Global structural netlist routing module
-│
 ├── tb/                # Testbench suites for functional verification
 │   └── clock_tb.v       # Self-checking behavioral simulation wrapper
-│
 ├── constraints/       # Physical target device design constraint definitions
 │   └── physical_pins.xdc # Physical pin assignments for hardware deployment
-│
 ├── simulation/        # Simulator tool work directories and local run configurations
 ├── waveforms/         # Exported behavioral signal timing trace logs (.vcd / .wcfg)
 ├── reports/           # Post-synthesis resource and system timing summary documents
