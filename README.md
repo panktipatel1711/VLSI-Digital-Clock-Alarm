@@ -77,7 +77,7 @@ VLSI-Digital-Clock-Alarm/
 ├── reports/           # Post-synthesis resource and system timing summary documents
 └── docs/              # Specifications, state matrices, and submission documentation
 
-
+```
 ---
 
 ## 🚀 How to Execute & Simulate the Architecture
