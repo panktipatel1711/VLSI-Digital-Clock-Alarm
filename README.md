@@ -79,7 +79,7 @@ VLSI-Digital-Clock-Alarm/
 
 ```
 ---
-
+---
 ## 🚀 How to Execute & Simulate the Architecture
 
 ### Method 1: Cloud-Based Simulation (Via EDA Playground)
