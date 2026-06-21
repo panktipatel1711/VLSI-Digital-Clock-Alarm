@@ -1,0 +1,22 @@
+# =============================================================================
+# Professional VLSI Project Folder Tracking Configuration (.gitignore)
+# =============================================================================
+
+# Force Git to track and preserve these specific empty directories
+!rtl/
+!tb/
+!constraints/
+!docs/
+!simulation/
+!waveforms/
+!reports/
+
+# Ignore temporary simulation files, log scripts, and binary dumps inside them
+simulation/*
+waveforms/*
+reports/*
+*.log
+*.vcd
+*.wcfg
+*.jou
+*.pb
